@@ -1,0 +1,143 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+/* Logo Section */
+.logo-section {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.logo2-section {
+  display: flex;
+  align-items: center;
+  gap: clamp(5px, 2vw, 10px);
+}
+
+.logo1 {
+  height: 100px;
+}
+.logo2 {
+  height: 120px;
+}
+
+.logo-title {
+  color: #722327;
+  font-family: "Commissioner-ExtraBold", Helvetica;
+  font-size: 55px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.logo-subtitle {
+  font-family: "Manrope-Medium", Helvetica;
+  font-size: 25px;
+  margin: 5px 0;
+  color: #722327;
+}
+/* Navigation Section */
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Sub Navbar */
+.sub-navbar {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.sub-navbar li {
+  color: #002b47;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Main Navbar */
+.main-navbar {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+/* Navbar Items */
+.main-navbar li {
+  font-size: 16px;
+  color: #004d00;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  position: relative; 
+}
+
+/* Home Icon */
+.main-navbar svg {
+  font-size: 28px;
+  color: #004d00;
+}
+
+/* Dropdown Icon */
+.dropdown-icon {
+  font-size: 18px;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: max-content;
+  background:#722327;
+  list-style: none;
+  padding: 10px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: 0.3s ease;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+/* Dropdown Items */
+.dropdown-menu li {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hover Effect */
+.dropdown-menu li:hover {
+  background: #f2f2f2;
+    color: #004d00;
+}
+
+/* Show Dropdown on Hover */
+.main-navbar li:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

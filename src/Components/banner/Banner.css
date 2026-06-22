@@ -1,0 +1,35 @@
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  height: 700px;
+  background: url("/public/assets/images/home/banner.jpg") center / cover
+    no-repeat;
+  border-radius: 12px;
+}
+
+.banner-card {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background: #97c600;
+  padding: 25px 30px;
+  max-width: 400px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.banner-title{
+  line-height: 40px;
+  color: #002B47;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+

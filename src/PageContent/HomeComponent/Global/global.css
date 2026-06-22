@@ -1,0 +1,24 @@
+.global-section {
+  padding: 30px;
+  text-align: center;
+}
+
+.global-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.global-card {
+  max-width: 220px;
+}
+.global-icon img {
+  width: 80px;
+  object-fit: contain;
+}
+
+.global-title {
+  font-size: clamp(18px, 1.2vw, 22px);
+  font-weight: 500;
+  color: #722327;
+}

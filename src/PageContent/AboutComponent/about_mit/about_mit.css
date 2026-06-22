@@ -1,0 +1,42 @@
+.aboutmit-image {
+  margin: 40px auto;
+  width: 100%;
+  height: clamp(200px, 35vw, 450px);
+  overflow: hidden;
+  border-radius: clamp(10px, 1.5vw, 20px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.aboutmit-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vision-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.vision-icon {
+  background: #722327;
+  color: #fff;
+  padding: 4px;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.vision-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vision-content p {
+  margin: 0;
+}

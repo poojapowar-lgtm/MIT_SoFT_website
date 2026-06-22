@@ -1,0 +1,66 @@
+.about-pg-container {
+  display: flex;
+  align-items: center;
+  gap: clamp(20px, 4vw, 40px);
+  flex-wrap: wrap;
+}
+
+.about-pg-img {
+  flex: 1;
+  max-width: 450px;
+}
+
+.about-pg-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-pg-content {
+  flex: 1;
+}
+
+.row-lists {
+  display: flex;
+  gap: clamp(20px, 4vw, 60px);
+}
+
+.row-lists > div {
+  flex: 1;
+}
+
+.row-lists ul {
+  padding-left: 20px;
+}
+
+.row-lists li {
+  color: #722327;
+}
+
+.eligibility-btns{
+  display: flex;
+  gap: clamp(10px, 2vw, 20px);
+}
+
+.btn2 {
+  border: 1px solid #008a00;
+  color: #008a00;
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn2:hover {
+  background: none;
+  border: 1px solid#008A00;
+  color: black;
+}
+
+.syllabus-section {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 2vw, 20px);
+}

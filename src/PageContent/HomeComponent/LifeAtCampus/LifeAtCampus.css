@@ -1,0 +1,35 @@
+.life-campus {
+ margin: 0 auto;
+  background-color: #f3ecd3;
+}
+
+/* Layout */
+.campus-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Left Text */
+.campus-left {
+  margin-left: 80px;
+  flex: 1;
+  text-align: left;
+}
+
+#campus-btn {
+  margin-left: auto;
+  display: block;
+}
+/* Right Image */
+.campus-image {
+  flex: 1;
+  text-align: center;
+}
+
+.campus-image img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}

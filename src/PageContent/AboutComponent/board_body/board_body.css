@@ -1,0 +1,44 @@
+.board-body-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(20px, 3vw, 40px);
+}
+
+.board-card {
+  position: relative;
+  background: #fbf6e5;
+  padding:clamp(5px, 2vw, 10px) clamp(5px, 2vw, 20px);
+  border-left: clamp(3px, 0.5vw, 6px) solid #97c600;
+  border-top-right-radius: clamp(40px, 5vw, 80px);
+  border-bottom-right-radius: clamp(40px, 5vw, 80px);
+  overflow: hidden;
+}
+
+.board-name {
+  font-size: clamp(18px, 1.5vw, 22px);
+  margin: clamp(5px, 1vw, 10px) 0;
+  color: #004d00;
+}
+
+.board-desg{
+  margin: 0;
+}
+
+.board-card:hover {
+  background: #722327;
+}
+
+.board-card:hover .board-name{
+  color: #fff;
+}
+
+.board-card:hover .board-desg{
+  color: #FBF6E5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .board-body-container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,43 @@
+.national-rank {
+  padding: 60px 80px;
+}
+
+/* Title */
+.rank-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Content Layout */
+.rank-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Left Text */
+.rank-text {
+  flex: 1;
+}
+
+.rank-text p {
+  text-align: left;
+}
+
+/* Right Logos */
+.rank-logos {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.RLogo {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+}
